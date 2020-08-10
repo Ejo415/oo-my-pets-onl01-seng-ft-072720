@@ -28,6 +28,6 @@ class Owner
   end
   
   def cats 
-    cats.all
+    puts cats.all
   end
 end
