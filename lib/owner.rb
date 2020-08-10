@@ -26,4 +26,8 @@ class Owner
   def say_species
    "I am a human."
   end
+  
+  def cats 
+    cats.all
+  end
 end
