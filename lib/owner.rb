@@ -27,7 +27,7 @@ class Owner
    "I am a human."
   end
   
-  def cats 
-    puts 
+  def self.cats 
+     
   end
 end
