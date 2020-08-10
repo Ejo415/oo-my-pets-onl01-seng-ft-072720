@@ -6,7 +6,7 @@ class Cat
   
   @name = name
   @owner = owner
-  mood = nervous
+  @mood = "nervous"
  end
  
  
