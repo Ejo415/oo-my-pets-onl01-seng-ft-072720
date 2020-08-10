@@ -28,6 +28,6 @@ class Owner
   end
   
   def cats 
-      
+      cats.all.select {|cat|
   end
 end
