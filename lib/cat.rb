@@ -7,12 +7,10 @@ class Cat
   @name = name
   @owner = owner
   @mood = "nervous"
-  save
+  @@cats << self
  end
  
- def save
-   @@cats << self
- end
+ 
  
  def self.all 
  end
